@@ -1,0 +1,32 @@
+# Environment variables - NEVER commit this
+.env
+.env.local
+.env.*.local
+
+# Python virtual environments
+venv/
+venv311/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Model files (large binaries)
+models/
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.h5
+
+# Data and exports
+data/
+export/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
